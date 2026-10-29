@@ -6,3 +6,5 @@ episodes/*/voice/out/*.wav
 episodes/*/voice/out/.cache/
 node_modules/
 .venv/
+references/*/media/
+.DS_Store

@@ -1,31 +1,23 @@
-# Invisible Systems (working title)
+# claudevideos
 
-Explainer films that make invisible systems physically visible, directed and built entirely in code on top of the
-[Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) film-style library. No video generation, no stock footage.
+Planning and production home for a short-form / YouTube channel made with AI coding agents.
+**Start with [AGENTS.md](AGENTS.md) and [docs/README.md](docs/README.md).**
 
-## Episodes
+## Status (2026-10-29)
 
-| # | Film | Style | Status |
-|---|---|---|---|
-| 001 | [What Happens After You Tap Your Card?](episodes/001-card-tap/) (*The Tap Line*, 60 s) | Transit Map | prototype: facts need human verification, temporary TTS voice |
+- Explored **Lemo-Opuscar** and made Episode 001 (*The Tap Line*); **rejected**: a calm 16:9 diagram, wrong for
+  social feeds. Kept as a prototype and lesson: [docs/03-episode-001-retro.md](docs/03-episode-001-retro.md).
+- Researched what works on TikTok / Shorts / Reels / X: [docs/02-short-form-research.md](docs/02-short-form-research.md).
+- Chose **OpenMontage** (atelier mode) as the primary framework: [docs/04-openmontage-assessment.md](docs/04-openmontage-assessment.md).
+- **Next:** owner sends 2–3 reference videos → analysis → direction → style frames → 8–12 s motion test, on the Mac:
+  [docs/05-next-steps.md](docs/05-next-steps.md).
 
 ## Layout
 
 ```
-LEMO_PIN.md                 exact library commit and tool versions every episode is built against
-episodes/<nnn-slug>/
-  FACTS.md, FACTS.json      every claim: value, source, quoted wording, verification status
-  TREATMENT.md              structure, shot list, beat sheet, cue map, sound design
-  script.json               narration lines and where they sit; subtitles come from it
-  voice/lines.json          the TTS script (numbers spelled out)
-  net.js, timeline.js       the film: map data and direction (Transit Map engine: film.js, gl.js, unmodified)
-  audio.py                  score, effects, voice mix
-  build.sh                  one command: voice, events, mix, picture, master, checks, subtitles, poster
-  <name>.mp4, .srt, poster.jpg
+AGENTS.md, CLAUDE.md   agent instructions (rules, defaults, Mac setup)
+docs/                  vision, research, retro, assessments, plan, decision log
+references/            reference videos and their analyses (to fill)
+episodes/001-card-tap/ archived prototype: FACTS, TREATMENT, source, build.sh, the-tap-line.mp4
+LEMO_PIN.md            pinned Lemo-Opuscar commit and tool versions for Episode 001
 ```
-
-## Rules
-
-- Every fact on screen or in the narration is in `FACTS.json` with a source; nothing is published while any entry is `verified: false`.
-- No brand logos or marks. Real names only as source credits.
-- The Lemo library is pinned (`LEMO_PIN.md`); upgrade deliberately.
