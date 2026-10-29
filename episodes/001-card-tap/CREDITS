@@ -1,0 +1,29 @@
+The Tap Line — Episode 001 · What Happens After You Tap Your Card?
+Third-party material used in this film, with source and licence.
+
+Style and tools
+  Lemo-Opuscar film-style library (Transit Map style, core render/audio tools, the Transit Map engine film.js and gl.js
+  copied unmodified into this folder): https://github.com/lemomo-ai/lemo-opuscar — code MIT. Pinned commit in ../../LEMO_PIN.md.
+
+Fonts
+  Inter (variable, Latin subset) — The Inter Project Authors — SIL Open Font License 1.1 (fonts/OFL-Inter.txt).
+  Obtained from the npm package @fontsource-variable/inter 5.3.0.
+
+Voice
+  Narration synthesised with Kokoro TTS (kokoro-onnx, model kokoro-v1.0, voice am_michael) — Apache License 2.0.
+  Temporary narrator for the prototype.
+
+Music samples
+  Samples (CC0): VS Chamber Orchestra: Community Edition (Versilian Studios), Versilian Community Sample Library (Versilian Studios)
+  Instruments: bass_drum, cellos, clarinet_stac, contrabass, contrabass_pizz, crash, flute_stac, glockenspiel, gran_cassa,
+  harp, horn, marimba, snare, snare2, timpani, tubular_bells, vibraphone_bowed, vibraphone_hard, violas, violins,
+  violins_pizz, violins_spic, woodblock, xylophone.
+
+Sound effects
+  All synthesised procedurally in code (core/audio/sfx.py and audio.py). No recordings.
+
+Facts
+  Every claim on screen and in the narration, with its source: FACTS.md / FACTS.json.
+  Brands: none shown. "Visa" appears only as the source credit of a published capacity figure.
+
+Original score, picture, map design and direction made in code for this film.

@@ -1,0 +1,8 @@
+episodes/*/out/
+episodes/*/stills/
+episodes/*/mix.wav
+episodes/*/events.json
+episodes/*/voice/out/*.wav
+episodes/*/voice/out/.cache/
+node_modules/
+.venv/

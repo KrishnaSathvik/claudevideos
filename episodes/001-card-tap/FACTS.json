@@ -1,0 +1,153 @@
+[
+ {
+  "id": "F1",
+  "claim": "A contactless card works within a few centimetres of the reader",
+  "value": "under 4 cm",
+  "sources": [
+   "https://www.spark.money/glossary/contactless-payment"
+  ],
+  "scene": "air-gap",
+  "verified": false,
+  "status": "search-quoted",
+  "checked": "2026-10-29"
+ },
+ {
+  "id": "F2",
+  "claim": "The card has no battery; the reader's radio field powers the chip",
+  "value": "",
+  "sources": [
+   "https://idtechproducts.com/technical-post/easy-contactless-transactions"
+  ],
+  "scene": "chip-wakes",
+  "verified": false,
+  "status": "search-quoted",
+  "checked": "2026-10-29"
+ },
+ {
+  "id": "F3",
+  "claim": "The chip signs each purchase with a one-time code that cannot be reused",
+  "value": "one per transaction",
+  "sources": [
+   "https://www.emvco.com/emv-technologies/emv-contact-chip/",
+   "https://usa.visa.com/dam/VCOM/Media%20Kits/PDF/EMV_Chip_Media_Fact_Sheet_FAQ.pdf"
+  ],
+  "scene": "one-time-code",
+  "verified": false,
+  "status": "search-quoted",
+  "checked": "2026-10-29"
+ },
+ {
+  "id": "F4",
+  "claim": "Route: terminal, acquirer, card network, issuer; the answer returns the same way",
+  "value": "",
+  "sources": [
+   "https://community.developer.visa.com/t5/Tutorials/A-Detailed-Look-at-the-Payments-Ecosystem-from-Visa-Payment/ba-p/7463",
+   "https://www.marqeta.com/demystifying-cards-guide/card-payments-ecosystem"
+  ],
+  "scene": "outbound-ride,return",
+  "verified": false,
+  "status": "search-quoted",
+  "checked": "2026-10-29"
+ },
+ {
+  "id": "F5",
+  "claim": "The network finds your bank from the card number",
+  "value": "",
+  "sources": [
+   "https://community.developer.visa.com/t5/Tutorials/A-Detailed-Look-at-the-Payments-Ecosystem-from-Visa-Payment/ba-p/7463"
+  ],
+  "scene": "network-switch",
+  "verified": false,
+  "status": "search-quoted",
+  "checked": "2026-10-29"
+ },
+ {
+  "id": "F6",
+  "claim": "The issuer checks code, card status, funds or credit, and fraud risk",
+  "value": "4 checks (editorial grouping)",
+  "sources": [
+   "https://stripe.com/resources/more/card-authorization-explained",
+   "https://developer.visa.com/request_response_codes",
+   "https://www.emvco.com/emv-technologies/emv-contact-chip/"
+  ],
+  "scene": "issuer-checks",
+  "verified": false,
+  "status": "search-quoted",
+  "checked": "2026-10-29"
+ },
+ {
+  "id": "F8",
+  "claim": "Issuers approve or decline within seconds",
+  "value": "within seconds",
+  "sources": [
+   "https://www.visa.com/en-ua/newsroom/visa-intelligent-authorization"
+  ],
+  "scene": "return",
+  "verified": false,
+  "status": "search-quoted",
+  "checked": "2026-10-29"
+ },
+ {
+  "id": "F9",
+  "claim": "One major network's published capacity is 65,000+ transaction messages per second",
+  "value": "65,000+",
+  "sources": [
+   "https://www.visa.gr/dam/VCOM/download/corporate/media/visanet-technology/aboutvisafactsheet.pdf"
+  ],
+  "scene": "network-callout",
+  "verified": false,
+  "status": "search-quoted",
+  "checked": "2026-10-29"
+ },
+ {
+  "id": "F10",
+  "claim": "Authorization moves no money",
+  "value": "$0.00 moved",
+  "sources": [
+   "https://pcibooking.net/?p=7562",
+   "https://www.marqeta.com/demystifying-cards-guide/card-payments-ecosystem"
+  ],
+  "scene": "turn",
+  "verified": false,
+  "status": "search-quoted",
+  "checked": "2026-10-29"
+ },
+ {
+  "id": "F11",
+  "claim": "Money moves later in settlement, usually 1-3 business days",
+  "value": "1-3 business days",
+  "sources": [
+   "https://pcibooking.net/?p=7562",
+   "https://www.spark.money/glossary/four-party-model"
+  ],
+  "scene": "settlement",
+  "verified": false,
+  "status": "search-quoted",
+  "checked": "2026-10-29"
+ },
+ {
+  "id": "F12",
+  "claim": "The merchant receives the amount less fees",
+  "value": "$4.75, less fees",
+  "sources": [
+   "https://paymentexpert.com/2026/03/19/four-party-card-model-explained/",
+   "https://www.spark.money/glossary/four-party-model"
+  ],
+  "scene": "settlement",
+  "verified": false,
+  "status": "search-quoted",
+  "checked": "2026-10-29"
+ },
+ {
+  "id": "F13",
+  "claim": "Clearing batches the day's purchases",
+  "value": "",
+  "sources": [
+   "https://www.spark.money/glossary/four-party-model"
+  ],
+  "scene": "settlement",
+  "verified": false,
+  "status": "search-quoted",
+  "checked": "2026-10-29"
+ }
+]

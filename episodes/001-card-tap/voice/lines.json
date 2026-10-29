@@ -1,0 +1,16 @@
+[
+ {"id": "l01", "text": "You tap your card.", "voice": "am_michael", "speed": 0.95},
+ {"id": "l02", "text": "Approved.", "voice": "am_michael", "speed": 0.95},
+ {"id": "l03", "text": "In those few seconds, your purchase took a trip.", "voice": "am_michael", "speed": 0.95},
+ {"id": "l04", "text": "The terminal's radio field wakes the chip, from less than four centimetres away.", "voice": "am_michael", "speed": 0.98, "asr": "The terminal's radio field wakes the chip from less than four centimeters away."},
+ {"id": "l05", "text": "It signs this one purchase with a one-time code, so a copy is useless.", "voice": "am_michael", "speed": 0.98},
+ {"id": "l06", "text": "The request rides to the shop's bank,", "voice": "am_michael", "speed": 0.98},
+ {"id": "l07", "text": "then across the card network, which reads your card number to find your bank.", "voice": "am_michael", "speed": 1.0},
+ {"id": "l08", "text": "Your bank asks four questions at once.", "voice": "am_michael", "speed": 0.98},
+ {"id": "l09", "text": "Is the code real? Is the card open? Is there money, or credit? Does this look like fraud?", "voice": "am_michael", "speed": 1.04},
+ {"id": "l10", "text": "Four yeses. The answer races home.", "voice": "am_michael", "speed": 1.0},
+ {"id": "l11", "text": "Approved.", "voice": "am_michael", "speed": 0.92},
+ {"id": "l12", "text": "And yet, not one cent has moved.", "voice": "am_michael", "speed": 0.92},
+ {"id": "l13", "text": "Approval is only a promise. The money follows later, in settlement, usually one to three business days.", "voice": "am_michael", "speed": 0.98},
+ {"id": "l14", "text": "One tap. Two journeys.", "voice": "am_michael", "speed": 0.9}
+]

@@ -1,0 +1,75 @@
+{
+ "dur": 60.5,
+ "lines": [
+  {
+   "id": "l01",
+   "t": 0.35,
+   "sub": "You tap your card."
+  },
+  {
+   "id": "l02",
+   "t": 2.15,
+   "sub": "Approved."
+  },
+  {
+   "id": "l03",
+   "t": 4.3,
+   "sub": "In those few seconds, your purchase took a trip."
+  },
+  {
+   "id": "l04",
+   "t": 7.9,
+   "sub": "The terminal's radio field wakes the chip,\nfrom less than 4 cm away."
+  },
+  {
+   "id": "l05",
+   "t": 13.3,
+   "sub": "It signs this one purchase with a one-time code,\nso a copy is useless."
+  },
+  {
+   "id": "l06",
+   "t": 18.6,
+   "sub": "The request rides to the shop's bank,"
+  },
+  {
+   "id": "l07",
+   "t": 20.9,
+   "sub": "then across the card network, which reads\nyour card number to find your bank."
+  },
+  {
+   "id": "l08",
+   "t": 26.0,
+   "sub": "Your bank asks four questions at once."
+  },
+  {
+   "id": "l09",
+   "t": 28.5,
+   "sub": "Is the code real? Is the card open?\nIs there money, or credit? Does this look like fraud?"
+  },
+  {
+   "id": "l10",
+   "t": 34.8,
+   "sub": "Four yeses. The answer races home."
+  },
+  {
+   "id": "l11",
+   "t": 40.45,
+   "sub": "Approved."
+  },
+  {
+   "id": "l12",
+   "t": 42.1,
+   "sub": "And yet, not one cent has moved."
+  },
+  {
+   "id": "l13",
+   "t": 44.8,
+   "sub": "Approval is only a promise. The money follows later,\nin settlement, usually 1–3 business days."
+  },
+  {
+   "id": "l14",
+   "t": 53.3,
+   "sub": "One tap. Two journeys."
+  }
+ ]
+}
